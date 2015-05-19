@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<base href="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<title>Materialize ledding</title>
+
+<link href="css/materialize-fix-min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<div class="navbar-fixed">
+        <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+        </ul>
+        <nav role="navigation">
+                <div class="nav-wrapper container">
+                        <a id="logo-container" href="#" class="brand-logo">Logo</a>
+                        <ul class="right hide-on-med-and-down">
+                                <li><a href="#mail">Написать</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
+
+                                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="fa fa-caret-down right"></i></a></li>
+                                <li><a href="#search-footer"><i class="fa fa-search left"></i></a></li>
+                        </ul>
+                        <ul id="nav-mobile" class="side-nav">
+                                <li><a href="#mail">Написать</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
+                                <li><a href="#mail">Dropdown</a>
+                                <ul class="drop-up">
+                                        <li><a href="#!">one</a></li>
+                                        <li><a href="#!">two</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#!">three</a></li>
+                                </ul>
+                                </li>
+                                <li class="mob-fix">    <form>
+                                        <div class="input-field">
+                                                <input id="search-mobile" type="search" required>
+                                                <label for="search-mobile"><i class="fa fa-search"></i></label>
+                                        </div>
+                                </form></li>
+                        </ul>
+                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars"></i></a>
+                </div>
+        </nav>
+</div>
+
+
+
+<div class="slider">
+        <ul class="slides">
+                <li>
+                <img src="tmp/1b.jpg"  alt="" title="" > <!-- random image -->
+                <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+                </li>
+                <li>
+                <img src="tmp/2b.jpg"  alt="" title="" > <!-- random image -->
+                <div class="caption left-align">
+                        <h3>Left Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+                </li>
+                <li>
+                <img src="tmp/3b.jpg"  alt="" title="" > <!-- random image -->
+                <div class="caption right-align">
+                        <h3>Right Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+                </li>
+                <li>
+                <img src="tmp/4b.jpg"  alt="" title="" > <!-- random image -->
+                <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+                </li>
+        </ul>
+</div>
+
+
+
+<br><br>
+
+
+<div class="container">
+
+        <div class="row">
+                <div class="col s12 m3">
+                        <img class="materialboxed responsive-img z-depth-2 wow wobble"  data-caption="Описание картинок" src="tmp/1.jpg"  alt="" title="" >
+                        <h1 class="h3"><a href="">Заголовок</a></h1>
+                        <h2>заголовок</h2>
+                        <h3>заголовок</h3>
+                </div><!--col-->
+                <div class="col s12 m3">
+                        <img class="materialboxed responsive-img z-depth-2 wow wobble" data-caption="Описание картинок" src="tmp/2.jpg"  alt="" title="" >
+
+                </div><!--col-->
+                <div class="col s12 m3">
+                        <img class="materialboxed responsive-img z-depth-2 wow wobble" data-caption="Описание картинок" src="tmp/3.jpg"  alt="" title="" >
+
+                </div><!--col-->
+                <div class="col s12 m3">
+                        <img class="materialboxed responsive-img z-depth-2 wow wobble" data-caption="Описание картинок" src="tmp/5.jpg"  alt="" title="" >
+                        <h5 class="left-align">left-align </h5>
+
+                        <h5 class="right-align"> right-align</h5>
+
+                        <h5 class="center-align"> center-align</h5>
+                </div><!--col-->
+        </div><!--row-->
+
+        <table class="responsive-table hoverable bordered striped">
+                <thead>
+                        <tr>
+                                <th data-field="id">Name</th>
+                                <th data-field="name">Item Name</th>
+                                <th data-field="price">Item Price</th>
+                        </tr>
+                </thead>
+                <tbody><tr>
+                        <td>Alvin</td>
+                        <td>Eclair</td>
+                        <td>$0.87</td>
+                </tr>
+                <tr>
+                        <td>Alan</td>
+                        <td>Jellybean</td>
+                        <td>$3.76</td>
+                </tr>
+                <tr>
+                        <td>Jonathan</td>
+                        <td>Lollipop</td>
+                        <td>$7.00</td>
+                </tr>
+                <tr>
+                        <td>Shannon</td>
+                        <td>KitKat</td>
+                        <td>$9.99</td>
+                </tr>
+                </tbody>
+        </table>
+
+
+</div>
+
+<div class="valign-demo valign-wrapper z-depth-1">
+        <h3 class="valign center text-shadow">MATERIALIZE LEDDING</h3>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col s12 m6 l6">
+                        <blockquote>
+                                This is an example quotation that uses the blockquote tag.
+                        </blockquote>
+
+                        <p class="flow-text">I am Flow Text</p>
+                        <div class="card wow bounceIn">
+                                <div class="card-image">
+                                        <img class="activator responsive-img" src="tmp/1.jpg"  alt="" title="" >
+                                </div>
+                                <div class="card-content">
+                                        <span class="card-title activator">Card Title <i class="fa fa-ellipsis-v right"></i></span>
+                                        <p><a href="#">This is a link</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                        <span class="card-title">Card Title <i class="fa fa-times right"></i></span>
+                                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                </div>
+                        </div>
+                </div>
+
+
+                <div class="col s12 m6 l6">
+                        <div class="row">
+                                <div class="col s12 m12 l12">
+                                        <div class="card wow bounceIn">
+                                                <div class="card-image">
+                                                        <img src="tmp/3.jpg" class="responsive-img"  alt="" title="" >
+                                                        <span class="card-title">Card Title</span>
+                                                </div>
+                                                <div class="card-content">
+                                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                                        I am convenient because I require little markup to use effectively.</p>
+                                                </div>
+                                                <div class="card-action">
+                                                        <a href="#">This is a link</a>
+                                                        <a href='#'>This is a link</a>
+                                                </div>
+                                        </div>
+
+                                </div><!--row-->
+                        </div>
+                </div>
+        </div>
+
+
+</div> <!--row-->
+
+<div class="container">
+        <div class="row">
+                <div class="col s12 m4 l4"><img src="tmp/1.jpg" class="circle responsive-img z-depth-2"  alt="" title="" ></div>
+                <div class="col s12 m4 l4"><img src="tmp/2.jpg" class="circle responsive-img z-depth-2"  alt="" title="" ></div>
+
+                <div class="col s12 m4 l4">
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                                <div class="row valign-wrapper">
+                                        <div class="col s3">
+                                                <img src="tmp/1.jpg" alt="" title="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                                        </div>
+                                        <div class="col s10">
+                                                <span class="black-text">
+                                                        This is a square image. Add the "circle" class to it to make it appear circular.
+                                                </span>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="card-panel">
+                                <h4 class="truncate">This is an extremely long title that will be truncated</h4>
+
+                        </div>
+                </div>
+        </div>
+        <hr>
+        <div class="clearfix"></div>
+        <ul class="pagination">
+                <li class="disabled"><a href="#!"><i class="fa fa-angle-left"></i></a></li>
+                <li class="active"><a href="#!">1</a></li>
+                <li class="waves-effect"><a href="#!">2</a></li>
+                <li class="waves-effect"><a href="#!">3</a></li>
+                <li class="waves-effect"><a href="#!">4</a></li>
+                <li class="waves-effect"><a href="#!">5</a></li>
+                <li class="waves-effect"><a href="#!"><i class="fa fa-angle-right"></i></a></li>
+        </ul>
+        <div class="clearfix"></div>
+        <hr>
+        <div class="hr"></div>
+        <h4 class="center-align text-shadow Heading">Наша команда</h4>
+
+        <div class="row">
+                <div class="col s12 m3">
+
+                        <img class="materialboxed responsive-img z-depth-2 circle wow tada" data-caption="Описание картинок" src="tmp/p1.jpg"  alt="" title="" >
+                </div><!--col-->
+                <div class="col s12 m3">
+                        <img class="materialboxed responsive-img z-depth-2 circle wow  tada" data-caption="Описание картинок" src="tmp/p2.jpg"  alt="" title="" >
+
+                </div><!--col-->
+                <div class="col s12 m3">
+                        <img class="materialboxed responsive-img z-depth-2 circle wow tada" data-caption="Описание картинок" src="tmp/p3.jpg"  alt="" title="" >
+
+                </div><!--col-->
+                <div class="col s12 m3">
+                        <img class="materialboxed responsive-img z-depth-2 circle wow tada" data-caption="Описание картинок" src="tmp/p4.jpg" alt="" title="">
+
+                </div><!--col-->
+        </div><!--row-->
+
+
+
+
+        <a id="mail"></a>
+        <hr>
+        <h4 class="center-align text-shadow Heading">Обратная связь</h4>
+        <br>
+
+
+        <div class="row">
+                <form class="col s12">
+                        <div class="row">
+                                <div class="input-field col s12 m6">
+                                        <i class="fa fa-user prefix"></i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Как вас зовут</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                        <i class="fa fa-phone prefix"></i>
+                                        <input id="icon_telephone" type="tel" class="validate">
+                                        <label for="icon_telephone">Ваш телефон</label>
+                                </div>
+                        </div>
+                </form>
+        </div>
+
+        <div class="row">
+                <form class="col s12">
+                        <div class="row">
+                                <div class="input-field col s12 m6">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input id="icon_email" type="text" class="validate">
+                                        <label for="icon_email">Ваш e-mail</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                        <i class="fa fa-map-marker prefix"></i>
+                                        <input id="icon_adress" type="tel" class="validate">
+                                        <label for="icon_adress">Ваш адрес</label>
+                                </div>
+                        </div>
+                </form>
+        </div>
+
+        <div class="row">
+                <form class="col s12">
+                        <div class="row">
+                                <div class="input-field col s12">
+                                        <i class="fa fa-comment prefix"></i>
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">Вопрос</label>
+                                </div>
+                        </div>
+                </form>
+        </div>
+        <a id="contacts"></a>
+        <hr>
+        <h4 class="center-align text-shadow Heading">Koнтакты</h4>
+        <div class="row">
+                <div class="col m3 s3">
+                        <img class="materialboxed responsive-img" src="http://upload.wikimedia.org/wikipedia/commons/6/61/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.jpg" alt="" title="">
+                </div><!--col-->
+                <div class="col m8 s8">
+                        <h5 class="fa-grey">
+                                <span class="category">КАФЕ</span>
+                                <span class="fn org">РОМАШКА</span><br><br>
+                                <span class="adr">
+                                        <i class="fa fa-map-marker"></i> <span class="locality">Москва</span> <span class="street-address">ул. Бардина, дом 59</span><br>
+                                        <i class="fa fa-phone"></i> <a href="tel:">+7 (939) 261-89-41</a><br>
+                                        <i class="fa fa-envelope"></i> <a href="mailto:">zinefucuw@bladesmail.net</a><br>
+                                        <i class="fa fa-subway"></i> <a href="https://metro.yandex.ru/moscow" target="_blank"> Метро Бауманская</a>  <br>
+                                        <i class="fa fa-clock-o"></i> Мы работаем <span class="workhours">ежедневно с 11:00 до 24:00
+                                        </span>
+                                        <span class="url">
+                                                <span class="value-title" title="http://www."> </span>
+                                        </span>
+                                </h5>
+                        </div><!--col-->
+                </div><!--row-->
+
+                <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2245.4083086309442!2d37.613534!3d55.751408999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a51402c68bb%3a0xd761436150fe5227!2z0jrqsngb0yhriydqnnc-0yhqutc-0llrgdc60l7qs9c-inca0ydqtdc80lvrjw!5e0!3m2!1sru!2sru!4v1428580742698"  height="150" frameborder="0" style="border:0"></iframe>
+                </div><!--map-container-->
+
+        </div><!--container-->
+
+        <footer class="page-footer">
+                <div class="container">
+                        <a id="search-footer"></a>
+                        <nav class="hide-on-small-only">
+                                <div class="nav-wrapper white search-fix">
+                                        <form>
+                                                <div class="input-field">
+                                                        <input id="search-big" type="text" required>
+                                                        <label for="search-big"> <i class="fa fa-search"></i></label>
+                                                </div>
+                                        </form>
+                                </div>
+                        </nav>
+                        <div class="row">
+                                <div class="col m4 s4">
+                                        <h5 class="white-text">Контакты</h5>
+                                        <p class="white-text">Описательный текст</p>
+
+
+                                </div>
+                                <div class="col  m4 s4">
+                                        <h5 class="white-text">Меню1</h5>
+                                        <ul>
+                                                <li><a class="white-text" href="#!">Link 1</a></li>
+                                                <li><a class="white-text" href="#!">Link 2</a></li>
+                                        </ul>
+                                </div>
+                                <div class="col m4 s4 white-text">
+                                        <h4 class="right-align">
+                                                <a href="" class="vk-fix"><i class="fa fa-vk"></i></a>
+                                                <a href=""><i class="fa fa-youtube-square"></i></a>
+                                                <a href=""><i class="fa fa-google-plus-square"></i></a>
+                                                <a href=""><i class="fa fa-instagram"></i></a>
+                                                <a href=""><i class="fa fa-twitter-square"></i></a>
+                                                <a href=""><i class="fa fa-facebook-square"></i></a>
+                                                <a href=""><i class="fa fa-rss-square"></i></a>
+                                        </h4>
+                                </div>
+                        </div>
+                </div>
+                <div class="footer-copyright">
+                        <div class="container">
+                                &copy; 2015
+                        </div>
+                </div>
+        </footer>
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/hammer.min.js"></script>
+        <script src="js/jquery.hammer.js"></script>
+        <script src="js/init.js"></script>
+
+
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+
+        </body>
+        </html>
