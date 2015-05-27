@@ -1,6 +1,5 @@
 {
   "name": "maza",
-  "version": "1.0.12",
   "homepage": "https://github.com/wiisoft/maza",
   "authors": [
     "wiisoft <webdev@webmaker.today>"
@@ -48,5 +47,14 @@
   ],
   "dependencies": {
     "jquery": ">=2.1.1"
-  }
+  },
+  "_release": "f3ce7e6119",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f3ce7e61196840e75f9c70e2a3156592066380d4"
+  },
+  "_source": "git://github.com/wiisoft/maza.git",
+  "_target": "*",
+  "_originalSource": "maza"
 }
