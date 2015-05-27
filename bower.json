@@ -29,6 +29,7 @@
   "ignore": [
     ".gitignore",
     "tmp/",
+    "favicon.ico",
     "bower.json",
     "README.md",
     "image/", 
@@ -36,7 +37,7 @@
     "**/*.zip",
     "**/*.txt",
     "**/.*",
-    "node_modules",
+    "node_mod`ules",
     "bower_components",
     "test",
     "tests"
