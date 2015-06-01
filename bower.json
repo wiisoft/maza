@@ -5,6 +5,7 @@
     "wiisoft <webdev@webmaker.today>"
   ],
   "description": "It's a fork MaterializeCSS framwork with Font Awesome anf other upgrades",
+  "version": "0.4",
   "main": [
     "css/animate.css",
     "css/font-awesome.min.css",
