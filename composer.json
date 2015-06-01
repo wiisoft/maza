@@ -1,0 +1,13 @@
+{
+    "name": "wiisoft/maza",
+    "description": "It's a fork MaterializeCSS framwork with Font Awesome anf other upgrades",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wiisoft",
+            "email": "webdev@webmaker.today"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
