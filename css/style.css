@@ -1,5 +1,4 @@
 /*-------------------- Вт. 19 мая 2015 15:05:19--------------------*/
-
 body {
         background:transparent url(../image/bg.png);
 }
@@ -14,7 +13,6 @@ nav {
         background-size:cover;
         opacity:0.9;
 }
-
 /*fix*/
 hr {
         height: 0;
@@ -34,44 +32,40 @@ hr {
 }
 h1, .h1 {
         font-size:4.2rem;
-        line-height:4.62rem;
+        line-height:3.62rem;
         margin:2.1rem 0 1.68rem 0;
+        font-weight:bold;
 }
-
 h2, .h2 {
         font-size:3.56rem;
-        line-height:1.916rem;
+        line-height:2.916rem;
         margin:1.78rem 0 1.424rem 0;
         font-weight:bold;
-
 }
-
 h3, .h3 {
         font-size:2.92rem;
         line-height:3.212rem;
         margin:1.46rem 0 1.168rem 0;
+        font-weight:bold;
 }
-
 h4, .h4 {
         font-size: 2.28rem;
         line-height: 2.508rem;
         margin: 1.14rem 0 0.912rem 0;
         font-weight:bold;
-
 }
-
-h5 {
+h5, .h5 {
         font-size:1.64rem;
         line-height:1.804rem;
         margin:0.82rem 0 0.656rem 0;
+        font-weight:bold;
 }
-
-h6 {
+h6, .h6 {
         font-size:1rem;
         line-height:1.1rem;
         margin:0.5rem 0 0.4rem 0;
+        font-weight:bold;
 }
-
 @media only screen and (min-width: 993px) {
         .container {
                 width:90% !important;
@@ -89,26 +83,22 @@ h6 {
         background-color:#D5D5D5;
         border: none;
 }
-
 li.mob-fix {
         margin:20px 0;
 }
 .mob-fix nav .input-field {
         margin:0 -10px !important;
 }
-
-
 .Heading {
         color:#747474;
         margin:1.14rem 0 4.912rem 0;
-
 }
 .map-container iframe {
         width:100%;
         height:445px;
         overflow:hidden;
 }
-.list li {
+.ul li {
         list-style-type: square !important;
         list-style-position: outside !important;
         margin-bottom:10px;
@@ -130,7 +120,6 @@ li.mob-fix {
 .valign-demo .center {
         width:100%;
 }
-
 .pagination li.active {
         background-color:#EB981C;
         border-radius:50%;
@@ -145,12 +134,9 @@ li.mob-fix {
 .slider .indicators .indicator-item {
         border-radius:0;
 }
-
 .slider .indicators .indicator-item.active {
         background-color:#EB981C !important;
 }
-
-
 .side-nav li ul{
         margin-left:15px;
         border-left:1px solid #ccc;
@@ -159,7 +145,6 @@ li.mob-fix {
 footer i, footer  .input-field {
         color:#71633B !important;
 }
-
 footer.page-footer {
         background:transparent url(../image/bg-splash.jpg) top center;
         -webkit-background-size: cover;
@@ -167,7 +152,6 @@ footer.page-footer {
         -o-background-size: cover;
         background-size: cover;
 }
-
 footer .footer-copyright {
         background-color:rgba(114, 109, 94, 0.32) !important;
 }
@@ -175,120 +159,114 @@ footer .footer-copyright {
 .social-icons-fix a:after, .social-icons-fix a:before {
         content: '' !important;
 }
-a[href^="http://"]:not([href*="domen.com"])::after, 
+a[href^="http://"]:not([href*="domen.com"])::after,
 a[href^="https://"]:not([href*="domen.com"])::after {
         content: '⤴ ' ;
         color: #757575;
 }
-a[href$=".xls"]:before {
-        font-family: 'FontAwesome';
-        content: '\f1c3  ' ;
-        text-decoration:none  !important;
-        white-space:nowrap;
-        color:#2B4D0C;
-}
-
-a[href$=".doc"]:before {
-        font-family: 'FontAwesome';
-        content: '\f1c2  ' ;
-        color:#134C72;
+a[href^="mailto:"]:before {
+        font-family:'FontAwesome';
+        content:'\f0e0  ';
+        color:#757575;
         text-decoration:none !important;
         white-space:nowrap;
-
 }
-a[href^="mailto:"]:before {
-        font-family: 'FontAwesome';
-        content: '\f0e0  ';
-        color: #757575;
-        text-decoration:none  !important;
+a[href^="tel:"]:before {
+        font-family:'FontAwesome';
+        content:'\f095  ';
+        color:#757575;
+        text-decoration:none !important;
         white-space:nowrap;
 }
-
-a[href^="tel:"]:before {
+/*--------------------microformats--------------------*/
+.locality:before {
+        font-family:'FontAwesome';
+        content:'\f041  ';
+        color:#757575;
+        text-decoration:none !important;
+        white-space:nowrap;
+}
+.metro:before {
+        font-family:'FontAwesome';
+        content:'\f239  ';
+        color:#757575;
+        text-decoration:none !important;
+        white-space:nowrap;
+}
+.workhours:before {
+        font-family:'FontAwesome';
+        content:'\f017  ';
+        color:#757575;
+        text-decoration:none !important;
+        white-space:nowrap;
+}
+/*--------------------files color--------------------*/
+a[href$=".xls"]:before {
         font-family: 'FontAwesome';
-        content: '\f095  ';
-        color: #757575;
-        text-decoration:none  !important;
+        content: '\f1c3  ';
+        text-decoration:none !important;
+        color:#2B4D0C;
+        white-space:nowrap;
+        }
+a[href$=".doc"]:before {
+        font-family: 'FontAwesome';
+        content: '\f1c2  ';
+        color:#134C72;
+        text-decoration:none !important;
         white-space:nowrap;
 }
 a[href$=".pdf"]:before {
         font-family: 'FontAwesome';
         content: '\f1c1  ';
         color:#B61E1E;
-        text-decoration:none  !important;
-        white-space:nowrap;
-}
-.locality:before {
-        font-family: 'FontAwesome';
-        content: '\f041  ';
-        color: #757575;
-        text-decoration:none  !important;
-        white-space:nowrap;
-}
-.metro:before {
-        font-family: 'FontAwesome';
-        content: '\f239  ';
-        color: #757575;
-        text-decoration:none  !important;
-        white-space:nowrap;
-}
-.workhours:before {
-        font-family: 'FontAwesome';
-        content: '\f017  ';
-        color: #757575;
         text-decoration:none !important;
         white-space:nowrap;
 }
-
 a[href$=".zip"]:before,
 [href$=".rar"]:before,
 [href$=".7zip"]:before {
-        font-family: 'FontAwesome';
-        content: '\f1c6  ' ;
+        font-family:'FontAwesome';
+        content:'\f1c6  ';
         color:#4EA8A8;
         text-decoration:none !important;
         white-space:nowrap;
 }
-
-
 p a [href$=".jpg"]:before,
 [href$=".jpeg"]:before,
 [href$=".png"]:before,
 [href$=".gif"]:before {
-        font-family: 'FontAwesome';
-        content: '\f1c5  ';
+        font-family:'FontAwesome';
+        content:'\f1c5  ';
         color:#157213;
         white-space:nowrap;
         text-decoration:none !important
 }
-
-
+/*--------------------social--------------------*/
 [href*="twitter.com"]:before {
-        font-family: 'FontAwesome';
-        content: '\f081  ';
+        font-family:'FontAwesome';
+        content:'\f081  ';
         white-space:nowrap;
 }
 [href*="facebook.com"]:before {
-        font-family: 'FontAwesome';
+        font-family:'FontAwesome';
         content: '\f230  ';
         white-space:nowrap;
 }
 [href*="plus.google.com"]:before {
-        font-family: 'FontAwesome';
+        font-family:'FontAwesome';
         content: '\f0d5  ';
         white-space:nowrap;
 }
 [href*="youtube.com"]:before,
 [href*="youtu.be"]:before {
-        font-family: 'FontAwesome';
+        font-family:'FontAwesome';
         content: '\f166  ';
         white-space:nowrap;
 }
 [href*="vk.com"]:before,
 [href*="vk.ru"]:before {
-        font-family: 'FontAwesome';
-        content: '\f189  ';
+        font-family:'FontAwesome';
+        content:'\f189  ';
         white-space:nowrap;
 }
-
 /*-------------------- * --------------------*/
