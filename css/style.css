@@ -15,7 +15,7 @@ nav {
 }
 /*fix*/
 hr {
-        height: 0;
+        height:0;
         -webkit-box-sizing: content-box;
         -moz-box-sizing: content-box;
         box-sizing: content-box;
@@ -23,6 +23,9 @@ hr {
         border-top:1px solid #d0d0d0;
         margin-top:30px;
         margin-bottom:30px;
+}
+strong {
+ font-weight:800;
 }
 .white-text a, .white-text a i {
         color:#fff !important;
