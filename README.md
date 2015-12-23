@@ -12,7 +12,6 @@ Add **[*Font-Awesome*](http://fortawesome.github.io/Font-Awesome/icons/)**, **[*
 
 -----------
 
-[**Demo**](http://demo.artfly.me/maza/)
-----------
+
 
 -------------
