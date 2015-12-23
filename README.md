@@ -1,6 +1,6 @@
 MAZA
 ===================
-![](http://demo.artfly.me/maza/maza.png)
+![](https://github.com/wiisoft/maza/blob/master/maza.png?raw=true)
 
 ----------
 
